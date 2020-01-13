@@ -1,0 +1,37 @@
+.KHL {
+    border: 1px solid gray;    font-size: 32px;
+    width: 60%;
+    font-style: inherit;
+    border-collapse: collapse;
+    background-color: rgb(213, 230, 224);
+    text-align: center;
+} 
+.KHL td {
+    border: 1px solid grey;
+}
+.KHL caption {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 34;
+}
+.KHL th:nth-child(2) {
+    font-style: inherit;
+    text-align: left;
+}
+.KHL th {
+    background-color: black;
+    color: white;
+}
+.KHL tr:nth-child(even) {
+    background-color: cornsilk;
+    
+}
+.KHL td:nth-child(2) {
+    font-style: italic;
+    text-align: left;
+    padding-left: 6px;
+}
+
+
+.play_off {
+    background-color: blue;
+}
